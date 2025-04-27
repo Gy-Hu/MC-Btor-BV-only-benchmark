@@ -1,0 +1,11 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2019C/vgasim_imgfifo-p093.btor
+Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2019C/vgasim_imgfifo-p093.btor
+Started at: Sun 27 Apr 2025 06:20:07 AM CST
+----------------------------------------
+unsat
+b0
+Pono wall clock time (s): 22.394
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Sun 27 Apr 2025 06:20:29 AM CST
+========================================

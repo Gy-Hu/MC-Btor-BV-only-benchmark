@@ -1,0 +1,11 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2019C/qspiflash_qflexpress_divfive-p038.btor
+Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2019C/qspiflash_qflexpress_divfive-p038.btor
+Started at: Sun 27 Apr 2025 05:15:51 AM CST
+----------------------------------------
+unsat
+b0
+Pono wall clock time (s): 10.2854
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Sun 27 Apr 2025 05:16:01 AM CST
+========================================

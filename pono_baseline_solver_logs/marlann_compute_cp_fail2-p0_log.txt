@@ -1,0 +1,11 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2019B/marlann_compute_cp_fail2-p0.btor
+Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2019B/marlann_compute_cp_fail2-p0.btor
+Started at: Sun 27 Apr 2025 04:17:48 AM CST
+----------------------------------------
+unsat
+b0
+Pono wall clock time (s): 23.2326
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Sun 27 Apr 2025 04:18:11 AM CST
+========================================

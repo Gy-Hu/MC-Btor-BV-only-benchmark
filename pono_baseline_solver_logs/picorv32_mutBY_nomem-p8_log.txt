@@ -1,0 +1,8 @@
+File: ./hwmcc19/bv/wolf/2019A/picorv32_mutBY_nomem-p8.btor
+Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time ./hwmcc19/bv/wolf/2019A/picorv32_mutBY_nomem-p8.btor
+Started at: Sun 27 Apr 2025 04:15:35 AM CST
+----------------------------------------
+----------------------------------------
+STATUS: TIMEOUT (exceeded 3600 seconds)
+Finished at: Sun 27 Apr 2025 05:15:36 AM CST
+========================================

@@ -1,0 +1,11 @@
+File: ./hwmcc19/bv/wolf/2018D/picorv32-check-p06.btor
+Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time ./hwmcc19/bv/wolf/2018D/picorv32-check-p06.btor
+Started at: Sun 27 Apr 2025 03:16:46 AM CST
+----------------------------------------
+unsat
+b0
+Pono wall clock time (s): 25.2163
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Sun 27 Apr 2025 03:17:12 AM CST
+========================================

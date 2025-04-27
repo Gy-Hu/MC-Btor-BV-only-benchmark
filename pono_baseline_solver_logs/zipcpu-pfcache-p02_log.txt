@@ -1,0 +1,11 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2018D/zipcpu-pfcache-p02.btor
+Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2018D/zipcpu-pfcache-p02.btor
+Started at: Sun 27 Apr 2025 07:15:52 AM CST
+----------------------------------------
+unsat
+b0
+Pono wall clock time (s): 50.9371
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Sun 27 Apr 2025 07:16:43 AM CST
+========================================

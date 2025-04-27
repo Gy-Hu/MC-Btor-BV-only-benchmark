@@ -59,12 +59,12 @@ process_file() {
     # Run Pono solver with timeout
     {
         echo "File: $FILE"
-        echo "Command: /Users/huguangyu/coding_env/oss-cad-suite/bin/pono -k 1000 -e ic3bits --print-wall-time $FILE"
+        echo "Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time $FILE"
         echo "Started at: $(date)"
         echo "----------------------------------------"
         
         # Run the solver with timeout and capture output
-        timeout 3600 /Users/huguangyu/coding_env/oss-cad-suite/bin/pono -k 1000 -e ic3bits --print-wall-time "$FILE" 2>&1
+        timeout 3600 /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time "$FILE" 2>&1
         
         # Check if the command timed out
         if [ $? -eq 124 ]; then

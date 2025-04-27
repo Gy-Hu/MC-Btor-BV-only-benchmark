@@ -1,0 +1,11 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2018D/zipcpu-busdelay-p36.btor
+Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2018D/zipcpu-busdelay-p36.btor
+Started at: Sun 27 Apr 2025 07:16:03 AM CST
+----------------------------------------
+unsat
+b0
+Pono wall clock time (s): 3566.6
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Sun 27 Apr 2025 08:15:30 AM CST
+========================================
