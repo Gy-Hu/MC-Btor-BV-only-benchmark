@@ -30,7 +30,7 @@ done
 echo "Running with $PARALLEL_JOBS parallel jobs"
 
 # Create a directory to store logs
-LOG_DIR="pono_baseline_solver_logs"
+LOG_DIR="pono_ic3ng_bzla_solver_logs"
 mkdir -p "$LOG_DIR"
 
 # Find all .btor files recursively
@@ -59,12 +59,12 @@ process_file() {
     # Run Pono solver with timeout
     {
         echo "File: $FILE"
-        echo "Command: /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time $FILE"
+        echo "Command: ./build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 -v 1 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time $FILE"
         echo "Started at: $(date)"
         echo "----------------------------------------"
         
         # Run the solver with timeout and capture output
-        timeout 3600 /data/guangyuh/coding_env/cosa2/build/pono -k 1000 -e ic3bits --print-wall-time "$FILE" 2>&1
+        timeout 3600 ./build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 -v 1 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time "$FILE" 2>&1
         
         # Check if the command timed out
         if [ $? -eq 124 ]; then
