@@ -1,0 +1,12 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2019C/qspiflash_dualflexpress_divfive-p058.btor
+Command: /data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2019C/qspiflash_dualflexpress_divfive-p058.btor
+Started at: Mon 28 Apr 2025 05:48:26 AM CST
+----------------------------------------
+Loaded 0 predicates
+unsat
+b0
+Pono wall clock time (s): 39.391
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Mon 28 Apr 2025 05:49:06 AM CST
+========================================

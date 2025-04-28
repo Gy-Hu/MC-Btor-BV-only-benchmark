@@ -1,0 +1,12 @@
+File: ./hwmcc19/bv/wolf/2018D/zipcpu-busdelay-p20.btor
+Command: /data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time ./hwmcc19/bv/wolf/2018D/zipcpu-busdelay-p20.btor
+Started at: Mon 28 Apr 2025 03:07:43 AM CST
+----------------------------------------
+Loaded 0 predicates
+unsat
+b0
+Pono wall clock time (s): 46.629
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Mon 28 Apr 2025 03:08:30 AM CST
+========================================

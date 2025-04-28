@@ -1,0 +1,8 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2019C/qspiflash_dualflexpress_divthree-p054.btor
+Command: /data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2019C/qspiflash_dualflexpress_divthree-p054.btor
+Started at: Mon 28 Apr 2025 05:08:40 AM CST
+----------------------------------------
+----------------------------------------
+STATUS: TIMEOUT (exceeded 3600 seconds)
+Finished at: Mon 28 Apr 2025 06:08:40 AM CST
+========================================

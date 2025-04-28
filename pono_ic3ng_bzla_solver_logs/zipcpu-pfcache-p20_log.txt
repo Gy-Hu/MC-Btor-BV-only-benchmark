@@ -1,0 +1,12 @@
+File: ./hwmcc20/btor2/bv/2019/wolf/2018D/zipcpu-pfcache-p20.btor
+Command: /data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time ./hwmcc20/btor2/bv/2019/wolf/2018D/zipcpu-pfcache-p20.btor
+Started at: Mon 28 Apr 2025 06:22:17 AM CST
+----------------------------------------
+Loaded 0 predicates
+unsat
+b0
+Pono wall clock time (s): 10.2814
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Mon 28 Apr 2025 06:22:27 AM CST
+========================================

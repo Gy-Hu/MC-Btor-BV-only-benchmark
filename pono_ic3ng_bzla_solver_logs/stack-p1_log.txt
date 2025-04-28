@@ -1,0 +1,14 @@
+File: ./hwmcc20/btor2/bv/2020/mann/stack-p1.btor
+Command: /data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time ./hwmcc20/btor2/bv/2020/mann/stack-p1.btor
+Started at: Mon 28 Apr 2025 04:08:15 AM CST
+----------------------------------------
+Loaded 0 predicates
+Caught generic exception...
+invalid symbol '|test_stack_equality.init.init.elem[0]|.next', symbol is not SMT-LIB compliant
+error
+b0
+Pono wall clock time (s): 0.00438812
+----------------------------------------
+STATUS: COMPLETED
+Finished at: Mon 28 Apr 2025 04:08:15 AM CST
+========================================

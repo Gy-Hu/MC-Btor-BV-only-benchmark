@@ -58,13 +58,15 @@ process_file() {
     
     # Run Pono solver with timeout
     {
+        # export .so library path
+        export LD_LIBRARY_PATH=/data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build:$LD_LIBRARY_PATH
         echo "File: $FILE"
-        echo "Command: ./build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 -v 1 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time $FILE"
+        echo "Command: /data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time $FILE"
         echo "Started at: $(date)"
         echo "----------------------------------------"
         
         # Run the solver with timeout and capture output
-        timeout 3600 ./build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 -v 1 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time "$FILE" 2>&1
+        timeout 3600 /data/guangyuh/coding_env/llm4pdr-ic3ng-predicate/build/pono -e ic3ng-bits --smt-solver=bzla -k 10000 --promote-inputvars --external-predicates placeholder_predicate.smt2 --print-wall-time "$FILE" 2>&1
         
         # Check if the command timed out
         if [ $? -eq 124 ]; then
